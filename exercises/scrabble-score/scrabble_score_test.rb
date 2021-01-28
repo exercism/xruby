@@ -11,10 +11,9 @@ class ScrabbleTest < Minitest::Test
     assert_equal 0, Scrabble.new(" \t\n").score
   end
 
-  def test_nil_scores_zero
-    skip
-    assert_equal 0, Scrabble.new(nil).score
-  end
+   def test_nothing_given_scores_zero
+     assert_equal 0, Scrabble.new.score
+   end
 
   def test_scores_very_short_word
     skip

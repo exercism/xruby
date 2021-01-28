@@ -4,7 +4,7 @@ class Scrabble
   end
 
   attr_reader :term
-  def initialize(term)
+  def initialize(term = '')
     @term = term.to_s.downcase
   end
 
