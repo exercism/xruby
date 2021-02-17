@@ -1,0 +1,16 @@
+{
+  "authors": {
+    "github_username": "neenjaw",
+    "exercism_username": "neenjaw"
+  },
+  "contributors": {
+    "github_username": "ihid",
+    "exercism_username": "ihid"
+  },
+  "language_versions": ">= 2.6.6",
+  "files": {
+    "solution": ["high_score.rb"],
+    "test": ["high_score_test.rb"],
+    "examplar": [".meta/exemplar.rb"]
+  }
+}

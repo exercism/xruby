@@ -28,12 +28,10 @@
       {
         "slug": "log-line-parser",
         "uuid": "e5476046-5289-11ea-8d77-2e728ce88125",
-
         "concepts": ["strings"],
         "prerequisites": ["basics"],
         "status": "wip"
       },
-
       {
         "slug": "boutique-inventory",
         "uuid": "9f3a89f2-196b-4d53-8481-1360b565c797",
@@ -48,7 +46,6 @@
         "prerequisites": ["enumeration"],
         "status": "wip"
       },
-
       {
         "slug": "moviegoer",
         "uuid": "2aa6c375-8a73-4f5f-ac8f-9db22a86e1f6",
@@ -56,7 +53,6 @@
         "prerequisites": [],
         "status": "wip"
       },
-
       {
         "slug": "simple-calculator",
         "uuid": "ef6dca29-a990-4a6e-8b2c-4703fd0f751a",
@@ -64,7 +60,6 @@
         "prerequisites": [],
         "status": "wip"
       },
-
       {
         "slug": "lasagna",
         "uuid": "71ae39c4-7364-11ea-bc55-0242ac130003",
@@ -98,6 +93,14 @@
         "uuid": "6905e411-ae01-46b6-a31c-8867b768856e",
         "concepts": ["instance-variables", "nil"],
         "prerequisites": ["basics"],
+        "status": "wip"
+      },
+      {
+        "slug": "high-score",
+        "name": "High Score",
+        "uuid": "58237782-2c30-4418-bd3b-7802d7f9e16e",
+        "concepts": ["hashes"],
+        "prerequisites": ["strings", "instance-variables"],
         "status": "wip"
       }
     ],
