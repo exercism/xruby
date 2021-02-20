@@ -1,0 +1,17 @@
+{
+  "authors": {
+    "github_username": "neenjaw",
+    "exercism_username": "neenjaw"
+  },
+  "contributors": {
+    "github_username": "iHiD",
+    "exercism_username": "ihid"
+  },
+  "language_versions": ">= 2.6.6",
+  "forked_from": ["csharp/classes"],
+  "files": {
+    "solution": ["remote_control_car.rb"],
+    "test": ["remote_control_car_test.rb"],
+    "examplar": [".meta/exemplar.rb"]
+  }
+}
