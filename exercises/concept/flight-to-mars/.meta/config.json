@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "github_username": "neenjaw",
+    "exercism_username": "neenjaw"
+  },
+  "contributors": {
+    "github_username": "iHiD",
+    "exercism_username": "ihid"
+  },
+  "language_versions": "placeholder",
+  "files": {
+    "solution": [
+      "flight_to_mars.rb"
+    ],
+    "test": [
+      "flight_to_mars_test.rb"
+    ],
+    "examplar": [
+      ".meta/exemplar.rb"
+    ]
+  }
+}
