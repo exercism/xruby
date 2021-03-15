@@ -1,0 +1,17 @@
+{
+  "authors": {
+    "github_username": "neenjaw",
+    "exercism_username": "neenjaw"
+  },
+  "contributors": {
+    "github_username": "iHiD",
+    "exercism_username": "ihid"
+  },
+  "language_versions": ">= 2.6.5",
+  "files": {
+    "solution": ["lucas_numbers.rb"],
+    "test": ["lucas_numbers_test.rb"],
+    "examplar": [".meta/exemplar.rb"]
+  },
+  "forked_from": ["elixir/lucas-numbers"]
+}
