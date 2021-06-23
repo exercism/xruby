@@ -19,20 +19,12 @@ run with ruby:
 
     $ ruby hello_world_test.rb
 
-This will fail, complaining that there is no file called `hello_world`.
-
-To fix the error create an empty file called `hello_world.rb` in the same
-directory as the `hello_world_test.rb` file.
-
-## Step 2
-
-Run the test again. It will give you a new error, since now the file exists,
-but is empty and does not contain the expected code.
+Run the test, since the file exists, but does not contain the expected code, it will not pass.
 
 Depending on what platform you are on, the error will look different, but
 the way to fix it will be the same.
 
-On Windows, it will complain about:
+On Windows, it may complain about:
 
     syntax error, unexpected end-of-input, expecting '('
 
@@ -70,7 +62,7 @@ To fix it, open up the hello_world.rb file and add the following code:
     class HelloWorld
     end
 
-## Step 3
+## Step 2
 
 Run the test again.
 
@@ -89,7 +81,7 @@ Open up hello_world.rb and add a method definition inside the class:
       end
     end
 
-## Step 4
+## Step 3
 
 Run the test again.
 
@@ -110,7 +102,7 @@ and the test is expecting one outcome, but getting another.
 The test is expecting the `hello` method to return the string `"Hello, World!"`. The easiest way
 to make it pass, is to simply stick the string `"Hello, World!"` inside the method definition.
 
-## Step 5
+## Step 6
 
 Run the test again.
 
