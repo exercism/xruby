@@ -4,3 +4,5 @@ bin/configlet.exe
 coverage/
 .last_generator_run
 node_modules/
+# Tooling brought in from other Exercism repository
+bin/stub_generator
